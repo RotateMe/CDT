@@ -127,7 +127,7 @@ public:
      */
     void eraseOuterTrianglesAndHoles();
 
-private:
+protected:
     /*____ Detail __*/
     void addSuperTriangle(const Box2d<T>& box);
     void insertVertex(const V2d<T>& pos);
